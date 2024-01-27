@@ -1,0 +1,15 @@
+body{
+    margin: 25px;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+#index{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+#disqus_thread{
+    margin-top: 65px;
+
+}

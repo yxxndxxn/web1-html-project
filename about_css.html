@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DAIN_HTML_PROJECT</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+
+    <body>
+        <h1><a href="index.html">ABOUT: CSS</a></h1>
+        <p>
+            - WEB2 CSS 필기 정리 -<br>
+        </p>
+        <p>
+            <div id="index">
+                <h4><a href="about_html.html">ABOUT: HTML</a></h4>
+                <h4><a href="about_css.html">ABOUT: CSS</a></h4>
+                <h4><a href="about_javascript.html">ABOUT: JAVASCRIPT</a></h4>
+            </div>
+        </p>
+
+       <h3>태그</h3>
+       <u>“img, input, br, hr, meta” 는 닫지 않는 태그</u><br><br>
+
+       <ul style="margin-top:30px;">
+            <li>!DOCTYPE html : 이 웹 페이지가 html로서 만들어졌다는 것을 표현하기 위한 코드 </li>
+            <li>html /html : body 태그와 head 태그를 감싸는 하나의 태그</li>
+            <li>head /head : 본문을 설명하는 태그</li>
+            <li>title /title : 웹 페이지 제목 지정</li>
+            <li>meta charset="utf-8" : 웹브라우저야! 이 웹페이지는 utf-8로 만들어졌기 때문에 utf-8로 열어야 해~~</li>
+            <li>body /body : 본문</li>
+       </ul>
+
+       <ul style="margin-top:40px;">
+            <li>h1 ~ h6 : 숫자가 클수록 글씨가 작아짐</li>
+            <li>strong /strong : 볼드체</li>
+            <li>u /u : 밑줄</li>
+            <li>p /p : 단락 표현 (단락 간격이 고정되어 있음-> css로 해결 가능)</li>
+            <li>br : 줄 바꿈 (닫지 않는 태그)</li>
+            <li>li /li : 목차</li>
+            <li>ul /ul : 다른 목록과 구분할 수 있도록 하는 경계 (ul = unordered list의 약자)</li>
+            <li>ol /ol : 번호 매겨줌 (ol = ordered list의 약자)</li>
+            <li>a /a : 링크 걸 때 </li>
+            <!-- <a href="https://www.w3.org/TR/html5/" target="_blank" title="html5 specification">Hypertext Markup Language (HTML)</a>-->
+            <li>href는 링크 주소 첨부 속성</li>
+            <li>target=”_blank”는 링크를 클릭했을 때 새 창에서 페이지가 열리게 하는 속성</li>
+            <li>title은 이 링크가 어떤 내용을 담고 있는지 툴팁으로 보여주는 기능</li>
+        </ul>
+       <p style="margin-top:40px;">
+            --------------------------------------------------------------------------------------------------------------------------<br>
+            줄 바꿀 땐 <strong>br</strong>, 단락 표현할 땐 <strong>p /p</strong> 쓰는 게 좋음!<br>
+            li 태그는 ul 태그를 꼭 필요로 함, 상호 보완적 관계!
+       </p>
+
+       <p style="margin-top:30px;">
+            --------------------------------------------------------------------------------------------------------------------------<br>
+            <li><strong>src</strong>는 속성(sorce)</li>
+            <li>src라는 속성을 통해서 이미지를 불러올 수 있게 함</li><br>
+            <strong>속성은 태그의 이름만으로는 <u>정보가 부족할 때</u> 사용된당!</strong>
+       </p>
+
+       <p style="margin-top:30px;">
+            --------------------------------------------------------------------------------------------------------------------------<br>
+            <li><a href="https://opentutorials.org/course/3084/18891">웹 호스팅 방법 바로가기</a></li>
+      </p>
+
+
+      <div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://html-project-1.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/65a0d5e70ff6374032bf2d94/1hju474pa';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+    </body>
+</html>
